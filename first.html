@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>body-color</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <h2>header</h2>
+            </div>
+        </header>
+        <div class="mainwrapper">
+            <div class="btn-group">
+                <div class="btn" id="red" onclick="changebg('#ff0000')"></div>
+                <div class="btn" id="green" onclick="changebg('#008000')"></div>
+                <div class="btn" id="yellow" onclick="changebg('#ffff00')"></div>
+                <div class="btn" id="black" onclick="changebg('#000000')"></div>
+            </div>
+            <div class="text">
+                click on this button change background color
+            </div>
+            <div class="img">
+                <img src="bg.avif">
+            </div>
+        </div>
+    </div>
+
+    <script src="general.js"></script>
+</body>
+
+</html>
